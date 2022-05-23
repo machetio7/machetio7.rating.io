@@ -93,6 +93,7 @@ body {
   background-color: #ff9100;
   color: #fff;
   font-size: 20px;
+  transition: 0.3s;
 }
 .ranking__button:hover {
   background-color: #fff;
