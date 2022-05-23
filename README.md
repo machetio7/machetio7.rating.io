@@ -10,11 +10,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -29,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/optionsCard.jpg).
-![](./assets/thankyouCard.jpg).
+![](https://github.com/machetio7/machetio7.rating.io/blob/master/asset/optionsCard.png).
+![](https://github.com/machetio7/machetio7.rating.io/blob/master/asset/thankyouCard.png).
 
 
 ### Links
