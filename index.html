@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+    
+         <!-- Card for show the options -->
+    
+         <div class="main__wrapper" id="card__one">
+            <div class="ranking">
+                <div class="ranking__icon">
+                    <img src="./asset/icon-star.svg" alt="">
+                </div>
+                <div class="ranking__title">How did we do?</div>
+                <div class="ranking__description">Please let us know how we did width you support request. All feedback is appreciated to hel us improve out offering!</div>
+                <div class="ranking__score" id="ranking">
+                    <div id="1" class="ranking__score__element">1</div>
+                    <div id="2" class="ranking__score__element">2</div>
+                    <div id="3" class="ranking__score__element">3</div>
+                    <div id="4" class="ranking__score__element">4</div>
+                    <div id="5" class="ranking__score__element">5</div>
+                </div>
+                <div class="ranking__button" id="submit">SUBMIT</div>
+            </div>
+        </div>
+
+    <!-- Card for show your ranking -->
+        <div class="main__wrapper-two" id="card__two">
+            <div class="ranking-two">
+                <div class="ranking-two__icon" id="closed">
+                   x
+                </div>
+                <div class="ranking-two__image">
+                    <img src="./asset/illustration-thank-you.svg" alt="thanks image">
+                </div>
+                <div class="ranking-two__selected" id="selected"></div>
+                <div class="ranking-two__title">Thank you!</div>
+                <div class="ranking-two__description">We appreciate you taking the lime to give a rating. If you ever need more support. don't hesitate to get in touch!</div>
+            </div>
+        </div>
+    
+   
+
+
+    <script src="./js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

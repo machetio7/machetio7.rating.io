@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #141414;
+}
+
+.main__wrapper {
+  background-color: #141414;
+  width: 400px;
+  height: 450px;
+  border-radius: 10%;
+}
+
+.main__wrapper-two {
+  background-color: #141414;
+  display: none;
+  width: 400px;
+  height: 450px;
+  border-radius: 10%;
+}
+
+.ranking {
+  padding: 35px;
+  background-color: #1e1e1e;
+  border-radius: 10%;
+  width: 400px;
+  height: 450px;
+}
+.ranking__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.ranking__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.ranking__description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+}
+.ranking__score {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+.ranking__score__element {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 5px;
+  color: rgb(70, 70, 70);
+  transition: 0.3s;
+}
+.ranking__score__element:hover {
+  color: #fff;
+  background-color: rgb(60, 60, 60);
+}
+.ranking__button {
+  margin: 20px auto;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #ff9100;
+  color: #fff;
+  font-size: 20px;
+}
+.ranking__button:hover {
+  background-color: #fff;
+  color: #ff9100;
+  cursor: pointer;
+}
+
+.ranking-two {
+  padding: 10px 30px;
+  background-color: #1e1e1e;
+  border-radius: 10%;
+  width: 400px;
+  height: 450px;
+}
+.ranking-two__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  border-radius: 50%;
+  color: rgb(70, 70, 70);
+  margin: 20px auto;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.ranking-two__icon:hover {
+  color: #fff;
+  background-color: rgb(60, 60, 60);
+}
+.ranking-two__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ranking-two__selected {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff9100;
+  font-size: 15px;
+  width: 240px;
+  padding: 5px 10px;
+  border-radius: 40px;
+  margin: 10px auto 20px auto;
+}
+.ranking-two__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ranking-two__description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  text-align: center;
+}
+.ranking-two__score {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+.ranking-two__score__element {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 5px;
+  color: rgb(70, 70, 70);
+  transition: 0.3s;
+}
+.ranking-two__score__element:hover {
+  color: #fff;
+  background-color: rgb(60, 60, 60);
+}
+.ranking-two__button {
+  margin: 20px auto;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #ff9100;
+  color: #fff;
+  font-size: 20px;
+}
+.ranking-two__button:hover {
+  background-color: #fff;
+  color: #ff9100;
+  cursor: pointer;
+}
+
+.button__active {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9100;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 5px;
+  color: white;
+  transition: 0.3s;
+}
+.button__active:hover {
+  background-color: #ff9100;
+  color: #fff;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #ff9100 !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 480px) {
+  .ranking {
+    width: 340px;
+    margin: 0 auto;
+    height: auto;
+  }
+  .ranking__score__element {
+    height: 50px;
+    width: 50px;
+  }
+  .ranking__button {
+    width: 255px;
+    height: 40px;
+  }
+
+  .ranking-two {
+    width: 340px;
+    margin: 0 auto;
+    height: auto;
+  }
+  .ranking-two__score__element {
+    height: 50px;
+    width: 50px;
+  }
+  .ranking-two__button {
+    width: 255px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
